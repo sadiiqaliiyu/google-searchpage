@@ -17,8 +17,9 @@ header{
     padding: 20px 40px 10px 40px;;
 }
 
-header .container .searchBar img{
-    float: left;
+header .container .searchBar img.logo{
+    position: relative;
+    top: 10px;
 }
 
 header ul {
@@ -28,7 +29,27 @@ header ul {
 
 header .container .searchBar ul li{
     float: right;
+    position: relative;
+    right: -17px;
+    bottom: -2px;
 }
+
+header .container .searchBar img{
+    float: left;
+}
+
+header .container .searchBar ul li a img {
+    position: relative;
+    bottom: 40px;
+    padding: 10px;
+}
+
+header .container .searchBar ul li a img.circle {
+    position: relative;
+    bottom: 45px;
+    border-radius: 30px;
+}
+
 
 header input[type=text]{
     width: 50%;
@@ -39,21 +60,30 @@ header input[type=text]{
    
 }
 
-nav{
-    padding: 15px;
-}
 
 nav div {
     position: relative;
-    left: 120px;
+    left: 150px;
     display: inline-block;
-    padding: 0 15px;
+    padding: 10px 17px;;
+    
+}
+
+nav div span {
+    position: relative;
+    right: -50px;
 }
 
 nav div a{
     text-decoration: none;
     color: #545454
 }
+nav div.active{
+    text-decoration: none;
+    color: #545454;
+    border-bottom:3px solid #1A73E8;
+}
+
 
 .clear{
     clear: both;
