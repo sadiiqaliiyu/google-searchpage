@@ -1,5 +1,5 @@
 body{
-    font-size: 14px;
+    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #222;
     line-height: 1.4;
@@ -19,7 +19,8 @@ header{
 
 header .container .searchBar img.logo{
     position: relative;
-    top: 10px;
+    top: 7px;
+    left: -10px;
 }
 
 header ul {
@@ -54,7 +55,7 @@ header .container .searchBar ul li a img.circle {
 header input[type=text]{
     width: 50%;
     padding: 15px;
-    margin: 0 20px;
+    margin: 0 15px;
     border-radius: 25px;
     border: 1px solid #ccc;
    
@@ -63,9 +64,9 @@ header input[type=text]{
 
 nav div {
     position: relative;
-    left: 150px;
+    left: 170px;
     display: inline-block;
-    padding: 10px 17px;;
+    padding: 10px 15px;;
     
 }
 
@@ -75,6 +76,7 @@ nav div span {
 }
 
 nav div a{
+    font-size: 95%;
     text-decoration: none;
     color: #545454
 }
@@ -84,6 +86,9 @@ nav div.active{
     border-bottom:3px solid #1A73E8;
 }
 
+nav div a.active{
+    color:#1A73E8;
+}
 
 .clear{
     clear: both;
@@ -94,23 +99,23 @@ main {
     width:632px;;
     margin-left:150px;
     margin-right: 264px;
+    padding:0 20px;
 }
 
 .result{
-    padding: 15px 0;
+    padding: 10px 0;
 }
 
 h1 {
     margin-top: 5px;
-    margin-bottom:5px;
     color: #1a0dab;
-    font-size: 150%;
+    font-size: 120%;
 }
 
 h2{
-    margin: 5px 0 5px 0;
+    margin: 0 0 5px 0;
     color: #006621;
-    font-size: 120%;
+    font-size: 100%;
 }
 
 p{
@@ -124,4 +129,110 @@ p{
 .containerTips {
     border: 1px solid #545454;
     border-radius: 5px;
+    
+}
+
+.tips .containerTips img{
+    float: right;
+}
+
+.tips .containerTips p{
+    padding: 10px;
+    margin-right: 205px;
+    color: black;
+    font-weight: 700;
+}
+
+.tips .containerTips ol{
+    list-style-type: decimal;
+    margin: 10px 30px;;
+
+}
+
+.tips .containerTips h1{
+    padding: 0 15px;
+}
+
+
+.tips .containerTips h2 {
+    padding: 0 15px 15px 15px;
+}
+
+.tips .containerTips h4 {
+    padding-left: 30px;
+    font-size: 80%;
+    margin-bottom: 15px;
+}
+
+.tips .extra {
+    float: right;
+    color: #777;
+    font-size: 70%;
+    padding: 5px 15px;
+}
+
+.tips .extra span {
+    width: 100px;
+    height: 100px;
+    background:#777;
+    padding:2px 6px;
+    border-radius: 30px;
+    margin: 10px;
+    color: #fff;
+}
+
+.suggestions .containerSug {
+    margin: 20px;
+    padding: 10px 0;
+}
+
+.suggestions .containerSug ul li {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
+/***********Footer***********/
+footer{
+    background: #ddd;
+   
+}
+
+footer .topFooter {
+    padding: 10px;
+    border: 1px solid #ccc;
+    padding-left: 170px;
+
+}
+
+footer .topFooter .location {
+    display: inline-block;
+}
+
+footer .topFooter .location a{
+    text-decoration: none;
+    color: #666;
+    font-size: 85%;
+}
+
+footer .bottomFooter {
+    padding: 10px;
+    margin-left: 150px;
+}
+
+
+footer .bottomFooter ul li{
+    display: inline;
+}
+
+footer .bottomFooter ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: #666;
+    font-size: 85%;
+    
 }
