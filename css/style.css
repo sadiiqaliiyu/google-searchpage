@@ -120,6 +120,7 @@ h2{
 
 p{
     color: #545454;
+    font-size: 90%;
 }
 
 .ad {
@@ -127,7 +128,7 @@ p{
 }
 
 .containerTips {
-    border: 1px solid #545454;
+    border: 1px solid #ccc;
     border-radius: 5px;
     
 }
@@ -174,7 +175,7 @@ p{
 .tips .extra span {
     width: 100px;
     height: 100px;
-    background:#777;
+    background:#ccc;
     padding:2px 6px;
     border-radius: 30px;
     margin: 10px;
@@ -190,6 +191,49 @@ p{
     padding: 10px;
     border: 1px solid #ccc;
 }
+
+main .videoContainer{
+    width: 800px;
+   
+}
+
+main .videoContainer .video{
+    display: inline-block;
+    width:203px;
+    border-radius: 10px;
+    margin: 0 2px; 
+    border: 1px solid #ccc;
+
+
+}
+
+main .videoContainer .video img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px; 
+     
+}
+main .videoContainer .video h2{
+    padding: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 80px;
+    margin-bottom: 40px;
+     
+}
+
+main .videoContainer .video h3,h4{
+    padding: 0 15px;
+    box-sizing: border-box;
+
+     
+}
+
+main .videoContainer .video h4{
+    padding-bottom: 10px;
+   
+     
+}
+
 
 main .rltSrch {
     border: 1px solid #ccc;
@@ -237,6 +281,96 @@ main .next ul li a{
     left: 290px;
 }
 
+.nextPages{
+    width: 632px;
+    margin-bottom: 50px;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+}
+
+.nextPages .siblings{
+   
+}
+
+ .bigG {
+    background: url(../images/GG.png);
+    background-repeat: no-repeat;
+    background-position: -21px 0px;
+    background-size: 164px;
+    width: 30px;
+    height: 37px;
+   
+}
+
+.redO{
+    background: url(../images/GG.png);
+    background-repeat: no-repeat;
+    background-position: -51px 0px;
+    background-size: 168px;
+    width: 20px;
+    height: 37px;
+    
+
+}
+
+.yellowO{
+    background: url(../images/GG.png);
+    background-repeat: no-repeat;
+    background-position: -72px 0px;
+    background-size: 168px;
+    width: 20px;
+    height: 37px;
+    
+
+}
+
+.gle{
+    background: url(../images/GG.png);
+    background-repeat: no-repeat;
+    background-position: -93px 0px;
+    background-size: 168px;
+    width: 80px;
+    height: 37px;
+    
+
+}
+
+.pageNumber {
+    
+    margin-top: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.4;
+    color: #4285f4;
+    font-size: 90%;
+}
+.next{
+    margin-top: 40px;
+    margin-left: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.4;
+    color: #4285f4;
+    font-size: 90%;
+
+}
+.pageNumber .active{
+    color: black;
+}
+.nextPages .yellowO a, .redO a, .next a {
+    text-decoration: none;
+    color: #4285f4;
+}
+
+.nextPages .yellowO a:hover {
+    text-decoration:underline;
+}
+
+.next a:hover{
+    text-decoration: underline;
+}
 
 /***********Footer***********/
 footer{
